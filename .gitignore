@@ -1,4 +1,5 @@
 build/
+signing-private/
 dist/
 diagnostics/
 expert_raw_analysis/

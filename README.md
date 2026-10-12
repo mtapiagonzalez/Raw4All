@@ -6,7 +6,7 @@
 
 **Video con audio y fotografía RAW de 50 MP para explorar las cámaras del Galaxy S23 Ultra, sin root.**
 
-**Versión 0.6.17 · Experimental** · [Cambios](CHANGELOG.md) · [Seguridad](SECURITY.md) · [Guía para contribuir](AGENTS.md)
+**Versión 0.7.0 · Experimental** · [Cambios](CHANGELOG.md) · [Seguridad](SECURITY.md) · [Guía para contribuir](AGENTS.md)
 
 > [!IMPORTANT]
 > **Desde 0.6.16, Raw4All usa su propio paquete: `com.secure.mathai.raw4all`.**
@@ -91,15 +91,15 @@ Desde la raíz del repo:
 ```powershell
 .\build.ps1
 .\check.ps1
-adb install -r .\build\Raw4All-v0.6.17.apk
+adb install -r .\build\Raw4All-v0.7.0.apk
 ```
 
-Puedes indicar ubicaciones propias con `build.ps1 -SdkPath ... -JavaPath ... -KeyStore ...`; `check.ps1` acepta `-JavaPath`. El script de compilación actual está preparado para firma de desarrollo, no para contraseñas de producción. No requiere Gradle ni las carpetas de investigación.
+Puedes indicar ubicaciones propias con `build.ps1 -SdkPath ... -JavaPath ... -KeyStore ...`; `check.ps1` acepta `-JavaPath`. La compilación predeterminada usa firma de desarrollo. Para distribución utiliza -Distribution -KeyStore y -KeyAlias, con RAW4ALL_STORE_PASSWORD en el entorno; no escribas la contraseña en comandos ni archivos del repo. No requiere Gradle ni las carpetas de investigación.
 
 El APK y su `.sha256` se generan en `build/`, excluido de Git. El paquete local final se conserva en `dist/`, también excluido: sirve para distribuir el APK por separado del código. Comprueba un archivo con:
 
 ```powershell
-Get-FileHash .\dist\Raw4All-v0.6.17.apk -Algorithm SHA256
+Get-FileHash .\dist\Raw4All-v0.7.0.apk -Algorithm SHA256
 ```
 
 Para preparar una versión para compartir, compila desde una carpeta de trabajo limpia, ejecuta `check.ps1` y conserva el APK junto a su `.sha256`. El hash del paquete preparado y las comprobaciones realizadas se registran en `dist/VALIDATION.md`. Los APK se distribuyen como archivos de una versión de GitHub; no hace falta incorporarlos al historial del código.
@@ -128,7 +128,7 @@ El repositorio contiene código y recursos del proyecto. Se excluyen Shizuku, AP
 
 El manifest no solicita Internet; la implementación no incorpora anuncios ni analítica y guarda las capturas localmente. Cámara y micrófono se usan para las funciones visibles. Desde 0.6.16 no se declara `SYSTEM_CAMERA`.
 
-**Revisión local de seguridad completada en 0.6.17:** se retiraron los extras externos de automatización y la app ya no es depurable ni emite registros detallados. El APK mantiene la firma de desarrollo existente; preparar una firma de distribución y una revisión independiente siguen pendientes. El alcance, las correcciones y las pruebas están en [SECURITY_AUDIT.md](SECURITY_AUDIT.md). Un hash verifica identidad de archivos, no certifica su seguridad. Consulta [SECURITY.md](SECURITY.md).
+**Revisión local de seguridad completada en 0.6.17:** se retiraron los extras externos de automatización y la app ya no es depurable ni emite registros detallados. Desde 0.7.0, el APK publicado utiliza una clave de distribución dedicada. La revisión independiente sigue pendiente; las pruebas físicas de la revisión corresponden a 0.6.17. El alcance, las correcciones y las pruebas están en [SECURITY_AUDIT.md](SECURITY_AUDIT.md). Un hash verifica identidad de archivos, no certifica su seguridad. Consulta [SECURITY.md](SECURITY.md).
 
 **Te invitamos a descargar el repositorio, revisarlo y compilar tu propia versión.** Puedes apoyarte en **Codex o Claude Code** para analizar permisos, entender la implementación, proponer mejoras y experimentar. Comprueba sus conclusiones y prueba los cambios en tu dispositivo.
 

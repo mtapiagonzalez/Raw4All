@@ -58,3 +58,7 @@ La revisión local quedó completada para este alcance. No se encontraron mecani
 El acceso trasero sigue dependiendo de la política de prefijos Samsung documentada en `CAMERA_ACCESS.md`. Es compatibilidad específica del firmware, no una autorización oficial ni una vulnerabilidad con impacto de seguridad demostrado.
 
 Referencias de criterio: [actividad exportada](https://developer.android.com/privacy-and-security/risks/android-exported), [app depurable](https://developer.android.com/privacy-and-security/risks/android-debuggable). Las conclusiones sobre Raw4All proceden del código, APK y pruebas locales indicados.
+
+## Actualización de distribución 0.7.0
+
+La firma dedicada ya está disponible en 0.7.0. El registro anterior identifica el APK histórico revisado y mantiene sus resultados originales. Consulta [RELEASE-v0.7.0.md](RELEASE-v0.7.0.md) para hashes, instalación y validación de la nueva distribución. La revisión independiente sigue pendiente.

@@ -3,7 +3,9 @@ param(
     [string]$OutputName = '',
     [string]$SdkPath = (Join-Path $env:LOCALAPPDATA 'Android\Sdk'),
     [string]$JavaPath = (Join-Path $env:ProgramFiles 'Android\Android Studio\jbr'),
-    [string]$KeyStore = (Join-Path $env:USERPROFILE '.android\debug.keystore')
+    [string]$KeyStore = (Join-Path $env:USERPROFILE '.android\debug.keystore'),
+    [string]$KeyAlias = 'androiddebugkey',
+    [switch]$Distribution
 )
 $ErrorActionPreference = 'Stop'
 
@@ -36,9 +38,14 @@ try {
 } finally { $apkArchive.Dispose() }
 & "$toolsPath\zipalign.exe" -f 4 build\unsigned.apk build\aligned.apk
 CheckExit
-& "$toolsPath\apksigner.bat" sign --ks $KeyStore --ks-pass pass:android --key-pass pass:android --out "build\$OutputName" build\aligned.apk
+if ($Distribution) {
+    if ([string]::IsNullOrWhiteSpace($env:RAW4ALL_STORE_PASSWORD)) { throw 'Set RAW4ALL_STORE_PASSWORD for distribution signing.' }
+    & "$javaPath\bin\java.exe" -jar "$toolsPath\lib\apksigner.jar" sign --ks $KeyStore --ks-key-alias $KeyAlias --ks-pass env:RAW4ALL_STORE_PASSWORD --key-pass env:RAW4ALL_STORE_PASSWORD --out "build\$OutputName" build\aligned.apk
+} else {
+    & "$javaPath\bin\java.exe" -jar "$toolsPath\lib\apksigner.jar" sign --ks $KeyStore --ks-key-alias $KeyAlias --ks-pass pass:android --key-pass pass:android --out "build\$OutputName" build\aligned.apk
+}
 CheckExit
-& "$toolsPath\apksigner.bat" verify "build\$OutputName"
+& "$javaPath\bin\java.exe" -jar "$toolsPath\lib\apksigner.jar" verify --verbose --print-certs "build\$OutputName"
 CheckExit
 $artifactPath = Join-Path $PSScriptRoot "build\$OutputName"
 $artifactHash = (Get-FileHash -LiteralPath $artifactPath -Algorithm SHA256).Hash.ToLowerInvariant()

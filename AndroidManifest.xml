@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.secure.mathai.raw4all"
-    android:versionCode="500802066" android:versionName="0.6.17">
+    android:versionCode="500802067" android:versionName="0.7.0">
     <queries><package android:name="com.sec.android.gallery3d" /></queries>
     <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="35" />
     <uses-permission android:name="android.permission.CAMERA" />

@@ -11,9 +11,9 @@ Se completó una revisión local de seguridad de Raw4All 0.6.17 y se corrigieron
 - Almacenamiento: capturas propias mediante MediaStore en `DCIM/Raw4All` y registros locales de diagnóstico.
 - El manifest actual no declara `INTERNET`. No se incorporan anuncios ni analítica.
 - Desde 0.6.16 no se declara `SYSTEM_CAMERA`. El acceso a W/ST depende de la política de nombres de paquetes del firmware Samsung probado; no concede la firma ni la identidad de Samsung.
-- Desde 0.6.17, `debuggable=false`, sin órdenes de captura mediante extras externos ni registros detallados de la app. La firma sigue usando la clave de desarrollo existente.
+- Desde 0.6.17, `debuggable=false`, sin órdenes de captura mediante extras externos ni registros detallados de la app. Desde 0.7.0 se utiliza una clave de distribución dedicada; consulta RELEASE-v0.7.0.md.
 
-## Revisión independiente y distribución pendientes
+## Revisión independiente pendiente
 
 1. Revisar permisos, componentes exportados, extras de diagnóstico y ciclo de vida de cámara/micrófono.
 2. Examinar fuente y contenido del APK: DEX, recursos, manifest y cualquier biblioteca incorporada.

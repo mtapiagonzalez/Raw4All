@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.7.0 — 2026-10-12
+
+- Firma de distribución dedicada; versionCode 500802067. Requiere reinstalación desde versiones firmadas con la clave de pruebas.
+- Compilación y comprobaciones locales verificadas; sin cambios en el código de cámara ni nuevas pruebas físicas.
+- APK y SHA-256 publicados como assets de una Release; descarga directa en la landing.
+- Identidad y límites documentados en RELEASE-v0.7.0.md.
+
 ## 0.6.17 — 2026-10-12
 
 - Revisión local de seguridad documentada en `SECURITY_AUDIT.md`. Se eliminan los extras de automatización y configuración externa del launcher; las capturas requieren interacción normal.
