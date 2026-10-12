@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="#000000" /></shape></item>
+    <item android:width="112dp" android:height="112dp" android:gravity="center">
+        <bitmap android:src="@drawable/raw4all_icon" android:gravity="fill" />
+    </item>
+    <item android:drawable="@drawable/splash_brand" android:gravity="bottom|center_horizontal" android:bottom="24dp" />
+</layer-list>

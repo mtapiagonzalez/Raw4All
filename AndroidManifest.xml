@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.secure.mathai.raw4all"
+    android:versionCode="500802066" android:versionName="0.6.17">
+    <queries><package android:name="com.sec.android.gallery3d" /></queries>
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="35" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application android:label="Raw4All" android:icon="@drawable/raw4all_launcher" android:roundIcon="@drawable/raw4all_launcher" android:theme="@style/Raw4AllTheme" android:debuggable="false" android:allowBackup="false">
+        <activity android:name="local.s23probe.MainActivity" android:exported="true" android:screenOrientation="fullSensor" android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+    </application>
+</manifest>

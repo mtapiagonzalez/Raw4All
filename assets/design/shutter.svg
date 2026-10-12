@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-52 -52 104 104" width="104" height="104">
+  <g>
+      <circle r="50" fill="rgba(0,0,0,0.35)"/>
+      <circle r="40.5" fill="rgba(0,0,0,0.2)"/>
+      <path d="M-0.46 -44.00 A44 44 0 0 1 4.29 -43.79" stroke="#FF6B9A" stroke-width="6" fill="none"/>
+      <path d="M3.38 -43.87 A44 44 0 0 1 8.09 -43.25" stroke="#FF6E95" stroke-width="6" fill="none"/>
+      <path d="M7.19 -43.41 A44 44 0 0 1 11.83 -42.38" stroke="#FF7090" stroke-width="6" fill="none"/>
+      <path d="M10.94 -42.62 A44 44 0 0 1 15.48 -41.19" stroke="#FF738A" stroke-width="6" fill="none"/>
+      <path d="M14.62 -41.50 A44 44 0 0 1 19.01 -39.68" stroke="#FF7585" stroke-width="6" fill="none"/>
+      <path d="M18.18 -40.07 A44 44 0 0 1 22.40 -37.87" stroke="#FF7880" stroke-width="6" fill="none"/>
+      <path d="M21.60 -38.33 A44 44 0 0 1 25.61 -35.78" stroke="#FF7A7B" stroke-width="6" fill="none"/>
+      <path d="M24.86 -36.30 A44 44 0 0 1 28.63 -33.41" stroke="#FF7D76" stroke-width="6" fill="none"/>
+      <path d="M27.93 -34.00 A44 44 0 0 1 31.44 -30.79" stroke="#FF8071" stroke-width="6" fill="none"/>
+      <path d="M30.79 -31.44 A44 44 0 0 1 34.00 -27.93" stroke="#FF826C" stroke-width="6" fill="none"/>
+      <path d="M33.41 -28.63 A44 44 0 0 1 36.30 -24.86" stroke="#FF8566" stroke-width="6" fill="none"/>
+      <path d="M35.78 -25.61 A44 44 0 0 1 38.33 -21.60" stroke="#FF8761" stroke-width="6" fill="none"/>
+      <path d="M37.87 -22.40 A44 44 0 0 1 40.07 -18.18" stroke="#FF8A5C" stroke-width="6" fill="none"/>
+      <path d="M39.68 -19.01 A44 44 0 0 1 41.50 -14.62" stroke="#FF8F5A" stroke-width="6" fill="none"/>
+      <path d="M41.19 -15.48 A44 44 0 0 1 42.62 -10.94" stroke="#FF9358" stroke-width="6" fill="none"/>
+      <path d="M42.38 -11.83 A44 44 0 0 1 43.41 -7.19" stroke="#FF9856" stroke-width="6" fill="none"/>
+      <path d="M43.25 -8.09 A44 44 0 0 1 43.87 -3.38" stroke="#FF9C54" stroke-width="6" fill="none"/>
+      <path d="M43.79 -4.29 A44 44 0 0 1 44.00 0.46" stroke="#FFA152" stroke-width="6" fill="none"/>
+      <path d="M44.00 -0.46 A44 44 0 0 1 43.79 4.29" stroke="#FFA650" stroke-width="6" fill="none"/>
+      <path d="M43.87 3.38 A44 44 0 0 1 43.25 8.09" stroke="#FFAA4F" stroke-width="6" fill="none"/>
+      <path d="M43.41 7.19 A44 44 0 0 1 42.38 11.83" stroke="#FFAF4D" stroke-width="6" fill="none"/>
+      <path d="M42.62 10.94 A44 44 0 0 1 41.19 15.48" stroke="#FFB34B" stroke-width="6" fill="none"/>
+      <path d="M41.50 14.62 A44 44 0 0 1 39.68 19.01" stroke="#FFB849" stroke-width="6" fill="none"/>
+      <path d="M40.07 18.18 A44 44 0 0 1 37.87 22.40" stroke="#FFBC47" stroke-width="6" fill="none"/>
+      <path d="M38.33 21.60 A44 44 0 0 1 35.78 25.61" stroke="#FFC145" stroke-width="6" fill="none"/>
+      <path d="M36.30 24.86 A44 44 0 0 1 33.41 28.63" stroke="#F2C24D" stroke-width="6" fill="none"/>
+      <path d="M34.00 27.93 A44 44 0 0 1 30.79 31.44" stroke="#E4C455" stroke-width="6" fill="none"/>
+      <path d="M31.44 30.79 A44 44 0 0 1 27.93 34.00" stroke="#D7C65D" stroke-width="6" fill="none"/>
+      <path d="M28.63 33.41 A44 44 0 0 1 24.86 36.30" stroke="#CAC765" stroke-width="6" fill="none"/>
+      <path d="M25.61 35.78 A44 44 0 0 1 21.60 38.33" stroke="#BCC86D" stroke-width="6" fill="none"/>
+      <path d="M22.40 37.87 A44 44 0 0 1 18.18 40.07" stroke="#AFCA76" stroke-width="6" fill="none"/>
+      <path d="M19.01 39.68 A44 44 0 0 1 14.62 41.50" stroke="#A2CC7E" stroke-width="6" fill="none"/>
+      <path d="M15.48 41.19 A44 44 0 0 1 10.94 42.62" stroke="#94CD86" stroke-width="6" fill="none"/>
+      <path d="M11.83 42.38 A44 44 0 0 1 7.19 43.41" stroke="#87CE8E" stroke-width="6" fill="none"/>
+      <path d="M8.09 43.25 A44 44 0 0 1 3.38 43.87" stroke="#7AD096" stroke-width="6" fill="none"/>
+      <path d="M4.29 43.79 A44 44 0 0 1 -0.46 44.00" stroke="#6CD29E" stroke-width="6" fill="none"/>
+      <path d="M0.46 44.00 A44 44 0 0 1 -4.29 43.79" stroke="#5FD3A6" stroke-width="6" fill="none"/>
+      <path d="M-3.38 43.87 A44 44 0 0 1 -8.09 43.25" stroke="#5ECFAC" stroke-width="6" fill="none"/>
+      <path d="M-7.19 43.41 A44 44 0 0 1 -11.83 42.38" stroke="#5CCCB2" stroke-width="6" fill="none"/>
+      <path d="M-10.94 42.62 A44 44 0 0 1 -15.48 41.19" stroke="#5BC8B8" stroke-width="6" fill="none"/>
+      <path d="M-14.62 41.50 A44 44 0 0 1 -19.01 39.68" stroke="#5AC5BF" stroke-width="6" fill="none"/>
+      <path d="M-18.18 40.07 A44 44 0 0 1 -22.40 37.87" stroke="#58C1C5" stroke-width="6" fill="none"/>
+      <path d="M-21.60 38.33 A44 44 0 0 1 -25.61 35.78" stroke="#57BECB" stroke-width="6" fill="none"/>
+      <path d="M-24.86 36.30 A44 44 0 0 1 -28.63 33.41" stroke="#56BAD1" stroke-width="6" fill="none"/>
+      <path d="M-27.93 34.00 A44 44 0 0 1 -31.44 30.79" stroke="#54B6D7" stroke-width="6" fill="none"/>
+      <path d="M-30.79 31.44 A44 44 0 0 1 -34.00 27.93" stroke="#53B3DE" stroke-width="6" fill="none"/>
+      <path d="M-33.41 28.63 A44 44 0 0 1 -36.30 24.86" stroke="#52AFE4" stroke-width="6" fill="none"/>
+      <path d="M-35.78 25.61 A44 44 0 0 1 -38.33 21.60" stroke="#50ACEA" stroke-width="6" fill="none"/>
+      <path d="M-37.87 22.40 A44 44 0 0 1 -40.07 18.18" stroke="#4FA8F0" stroke-width="6" fill="none"/>
+      <path d="M-39.68 19.01 A44 44 0 0 1 -41.50 14.62" stroke="#55A4F0" stroke-width="6" fill="none"/>
+      <path d="M-41.19 15.48 A44 44 0 0 1 -42.62 10.94" stroke="#5CA1F0" stroke-width="6" fill="none"/>
+      <path d="M-42.38 11.83 A44 44 0 0 1 -43.41 7.19" stroke="#629DF0" stroke-width="6" fill="none"/>
+      <path d="M-43.25 8.09 A44 44 0 0 1 -43.87 3.38" stroke="#6899F1" stroke-width="6" fill="none"/>
+      <path d="M-43.79 4.29 A44 44 0 0 1 -44.00 -0.46" stroke="#6F95F1" stroke-width="6" fill="none"/>
+      <path d="M-44.00 0.46 A44 44 0 0 1 -43.79 -4.29" stroke="#7592F1" stroke-width="6" fill="none"/>
+      <path d="M-43.87 -3.38 A44 44 0 0 1 -43.25 -8.09" stroke="#7B8EF1" stroke-width="6" fill="none"/>
+      <path d="M-43.41 -7.19 A44 44 0 0 1 -42.38 -11.83" stroke="#828AF1" stroke-width="6" fill="none"/>
+      <path d="M-42.62 -10.94 A44 44 0 0 1 -41.19 -15.48" stroke="#8886F2" stroke-width="6" fill="none"/>
+      <path d="M-41.50 -14.62 A44 44 0 0 1 -39.68 -19.01" stroke="#8E82F2" stroke-width="6" fill="none"/>
+      <path d="M-40.07 -18.18 A44 44 0 0 1 -37.87 -22.40" stroke="#957FF2" stroke-width="6" fill="none"/>
+      <path d="M-38.33 -21.60 A44 44 0 0 1 -35.78 -25.61" stroke="#9B7BF2" stroke-width="6" fill="none"/>
+      <path d="M-36.30 -24.86 A44 44 0 0 1 -33.41 -28.63" stroke="#A37AEB" stroke-width="6" fill="none"/>
+      <path d="M-34.00 -27.93 A44 44 0 0 1 -30.79 -31.44" stroke="#AC78E3" stroke-width="6" fill="none"/>
+      <path d="M-31.44 -30.79 A44 44 0 0 1 -27.93 -34.00" stroke="#B477DC" stroke-width="6" fill="none"/>
+      <path d="M-28.63 -33.41 A44 44 0 0 1 -24.86 -36.30" stroke="#BC76D5" stroke-width="6" fill="none"/>
+      <path d="M-25.61 -35.78 A44 44 0 0 1 -21.60 -38.33" stroke="#C574CD" stroke-width="6" fill="none"/>
+      <path d="M-22.40 -37.87 A44 44 0 0 1 -18.18 -40.07" stroke="#CD73C6" stroke-width="6" fill="none"/>
+      <path d="M-19.01 -39.68 A44 44 0 0 1 -14.62 -41.50" stroke="#D572BF" stroke-width="6" fill="none"/>
+      <path d="M-15.48 -41.19 A44 44 0 0 1 -10.94 -42.62" stroke="#DE70B7" stroke-width="6" fill="none"/>
+      <path d="M-11.83 -42.38 A44 44 0 0 1 -7.19 -43.41" stroke="#E66FB0" stroke-width="6" fill="none"/>
+      <path d="M-8.09 -43.25 A44 44 0 0 1 -3.38 -43.87" stroke="#EE6EA9" stroke-width="6" fill="none"/>
+      <path d="M-4.29 -43.79 A44 44 0 0 1 0.46 -44.00" stroke="#F76CA1" stroke-width="6" fill="none"/>
+      <circle r="34" fill="#FFFFFF"/>
+  </g>
+</svg>

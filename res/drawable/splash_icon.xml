@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fixed transparent canvas prevents Android from scaling the artwork to fill the mask. -->
+    <item android:width="288dp" android:height="288dp">
+        <shape><solid android:color="#00000000" /></shape>
+    </item>
+    <item android:width="112dp" android:height="112dp" android:gravity="center">
+        <bitmap android:src="@drawable/raw4all_icon" android:gravity="fill" />
+    </item>
+</layer-list>
